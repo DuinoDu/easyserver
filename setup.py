@@ -32,9 +32,10 @@ setup(
     url="https://github.com/duinodu/easyserver",
     license=license,
     platform="linux",
+    packages=["easyserver"],
     zip_safe=False,
     include_package_data=True,
-    python_requires=">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+    python_requires=">=3.6",
     install_requires=requires,
     entry_points={"console_scripts": ["easyserver = easyserver.core:main"]},
 )
