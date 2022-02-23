@@ -1,6 +1,6 @@
 import easyserver
 
 
-def test_absolute_truth_and_meaning():
-    easyserver.hmm()
-    assert True
+def test_version():
+    version = easyserver.__version__
+    assert version

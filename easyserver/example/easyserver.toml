@@ -1,0 +1,30 @@
+[server]
+name = "hello"
+host = "0.0.0.0"
+port = 8800
+
+# TEST
+
+[[function]]
+name = "test1"
+path = "/"
+method = "echo 'hello, easyserver'" 
+engine = "shell"
+
+[[function]]
+name = "test2"
+path = "/hello"
+method = "echo {name} {book}" 
+engine = "bash"
+
+[[function]]
+name = "test3"
+path = "/python"
+method = "api.py::hello" 
+engine = "python3"
+
+[[function]]
+name = "test4"
+path = "/get_sum"
+method = "api.py::get_sum" 
+engine = "python3"

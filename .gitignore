@@ -1,5 +1,5 @@
 dist/
-*hat*.egg-info/
+*.egg-info/
 ut_result/
 cov_result/
 */**/__pycache__
