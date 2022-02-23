@@ -1,9 +1,16 @@
-# Sample Module Repository
+# easyserver
 
-This simple project is an example repo for Python projects.
+A very easy-to-use and simple api server, based on flask.
 
----------------
+### Usage
 
-If you want to learn more about ``setup.py`` files, check out `this repository <https://github.com/kennethreitz/setup.py>`_.
+Create an example config.
+```
+easyserver --init-cfg
+```
 
-✨🍰✨
+Run server.
+
+```
+easyserver --config [toml config path]
+```
